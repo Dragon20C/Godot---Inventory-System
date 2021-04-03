@@ -1,0 +1,29 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://InventorySlot.tscn" type="PackedScene" id=1]
+
+[node name="Inventory" type="Node2D"]
+
+[node name="InventorySlot" parent="." instance=ExtResource( 1 )]
+position = Vector2( 16.5178, 25 )
+
+[node name="InventorySlot2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 45.811, 25 )
+
+[node name="InventorySlot3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 74.7892, 25 )
+
+[node name="InventorySlot4" parent="." instance=ExtResource( 1 )]
+position = Vector2( 104.082, 25 )
+
+[node name="InventorySlot5" parent="." instance=ExtResource( 1 )]
+position = Vector2( 134.005, 25 )
+
+[node name="InventorySlot6" parent="." instance=ExtResource( 1 )]
+position = Vector2( 163.299, 25 )
+
+[node name="InventorySlot7" parent="." instance=ExtResource( 1 )]
+position = Vector2( 192.277, 25 )
+
+[node name="InventorySlot8" parent="." instance=ExtResource( 1 )]
+position = Vector2( 221.57, 25 )
