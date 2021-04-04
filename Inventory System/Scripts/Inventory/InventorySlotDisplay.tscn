@@ -1,0 +1,47 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/Inventory/InventorySlotDisplay.gd" type="Script" id=1]
+[ext_resource path="res://Textures/UI/slot.png" type="Texture" id=2]
+
+[node name="InventorySlotDisplay" type="CenterContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Background" type="TextureRect" parent="."]
+margin_left = 328.0
+margin_top = 208.0
+margin_right = 392.0
+margin_bottom = 272.0
+rect_min_size = Vector2( 64, 64 )
+texture = ExtResource( 2 )
+stretch_mode = 4
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_left = 328.0
+margin_top = 208.0
+margin_right = 392.0
+margin_bottom = 272.0
+rect_min_size = Vector2( 64, 64 )
+texture = ExtResource( 2 )
+stretch_mode = 4
+
+[node name="Amount" type="Label" parent="TextureRect"]
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -11.4455
+margin_top = -15.3363
+margin_right = -2.44547
+margin_bottom = -1.33633
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "1"
+__meta__ = {
+"_edit_use_anchors_": false
+}
